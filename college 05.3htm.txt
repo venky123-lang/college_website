@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Rayalaseema University.edu</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      </head>
+      <body>
+        <div class="wrapper">
+          <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+            <div class="logo"><img src="https://www.rayalaseemauniversity.ac.in/images/logo.png" width="350" height="90"></div>
+              <ul class="links">
+                <li><a href="#HOME">Home</a></li>
+                <li><a href="#ABOUT">About</a></li>
+                <li><a href="#ADMINISTATION">Administration</a></li>
+                <li><a href="#PLACEMENT_CELL">placement_cell</a></li>
+                <li><a href="#FACULTIES">Faculties</a></li>
+                <li><a href="https://ryif1u.csb.app/">contact_us!</a></li>
+              </ul>
+            </div>
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <form action="#" class="search-box">
+              <input type="text" placeholder="Type Something to Search..." required>
+              <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+          </nav>
+        </div>       
+        <br/>
+         <br/>
+
+       <!--image slider section-->
+<div class="image-slider">
+<div class="slider">
+    <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <div class="slide first">
+            <img src="https://th.bing.com/th/id/R.52647b75a35b1eadf9c41d60020527f5?rik=ILTxinNiNYwYXQ&riu=http%3a%2f%2fthefinexpress.com%2fwp-content%2fuploads%2f2017%2f12%2fRUK-Assistant-Professor-Notification-released-last-date-December-26-online-application.jpg&ehk=lVaLJeAHpfWb5lAbg3HKjSFjBG4DVajK6JihnPXaIW8%3d&risl=&pid=ImgRaw&r=0" alt="">
+        </div>
+        <div class="slide">
+            <img src="https://i.ytimg.com/vi/QXdRs2uf_qQ/maxresdefault.jpg" alt="">
+        </div>
+        <div class="slide ">
+            <img src="https://images.shiksha.com/mediadata/images/1528952979php07Fc7f.jpeg" alt="">
+        </div>
+        <div class="slide ">
+            <img src="https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/924/2020/10/17/Library%20of%20Rayalaseema%20University%20Kurnool_Library.png" alt="">
+        </div>
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>
+    </div>
+<div class="navigation-manual">
+<label for="radio1" class="manual-btn" ></label>
+<label for="radio2" class="manual-btn" ></label>
+<label for="radio3" class="manual-btn" ></label>
+<label for="radio4" class="manual-btn" ></label>
+</div>
+
+</div>
+<script type="text/javascript">
+    var counter=1;
+    setInterval(function(){
+        document.getElementById('radio'+counter).checked=true;
+        counter++;
+        if(counter>4){
+            counter=1;
+        }
+    }, 5000);
+</script>
+</div>
+
+<!--main section-->   
+<div class="content">
+            <h1 ><FONT color="#0000FF">UNIVERSITY THEME</FONT></h1><br/>
+            <p class="par">The University adheres to the core values of respect, compassion, and social responsibility. In all that it does, 
+                it strives for excellence, innovation, engagement, integrity, and inclusiveness.</p><br/>
+<div class="content1">
+<P class="par1">To achieve national distinction for creativity, innovation and excellence, and become -- through leadership in teaching,
+     research, scholarship, and social action -- a great leader in higher education and contribute to the building of a more humane,
+      just, and sustain-able world.</P>
+<h1 align="center"><FONT color="red">RAYALASEEMA UNIVERSITY COLLEGE OF ENGINEERING</FONT></h1>          
+<h1 align="center"><FONT color="ff00ff">AVAILABLE COURSES:</FONT></h1>
+<h2>1.Computer Science and Engineering</h2><br>
+<h2>2.Electronics  and communication Engineering</h2><br>
+<h2>3.Civil Engineering</h2><br>
+<h2>4.Mechanical Engineering</h2><br>
+                        <br/>
+<button onclick="myFunction()" class="cn"><a href="#">Apply_Here</a></button>
+<p id="demo"></p>
+<script>
+    function myFunction(){
+        document.getElementById("demo").innerHTML="Applications Not Yet Started <br> Check for regular Updates!!";
+    }
+</script>
+ <h1 align="center"><FONT color="#ffff66">CHECK YOUR ATTENDENCE STATUS-</FONT></h1><br/>
+ <h2>1.Computer Science and Engineering</h2><br>
+    <p>check yout ATTENDENCE percentage by clicking here-<a href="https://drive.google.com/file/d/1F6lq-zog2LQ8gM97RwqLypuyY6KG8AEO/view?usp=drivesdk">check_now</a> <br></p>
+    <h2>2.Electronics  and communication Engineering</h2><br>
+    <p>check yout ATTENDENCE percentage by clicking here-<a href="#">check_now</a> <br></p>
+<h2>3.Civil Engineering</h2><br>
+<p>check yout ATTENDENCE percentage by clicking here-<a href="#">check_now</a> <br></p>
+<h2>4.Mechanical Engineering</h2><br>
+<p>check yout ATTENDENCE percentage by clicking here-<a href="#">check_now</a> <br></p>
+
+<br/>
+<h1 align="center"><FONT color="pink">CHECK YOUR RESULTS</FONT></h1><br/>
+ <h2>Batch 2020-2024</h2><br>
+ <p>B.Tech.  I Semester - Results - August 2021:<a href="https://ruk.ac.in/results/btechresults1.php?id=btech_i_sem_aug_2021">check_now</a> <br></p>
+ <p>B.Tech. II Semester - Results - November 2021:<a href="https://ruk.ac.in/results/btechresults1.php?id=btech_ii_sem_nov_2021">check_now</a> <br></p>
+ <p>B.Tech. III Semester - Results - May 2022:<a href="https://ruk.ac.in/results/btechresults1.php?id=btech_iii_sem_may_2022">check_now</a> <br></p>
+ 
+ <br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--single page navigation-->
+
+
+                <div class="ABOUT">
+                    <a name="ABOUT"></a>
+                    <fieldset class="fieldset1">
+                        <legend>ABOUT</legend>
+                <h1 align="center">
+                    Significance of The EMBLEM of The UNIVERSITY</h1>
+               <div class="img">
+                <img src="https://th.bing.com/th/id/OIP.bNYSsrgoXt34mo8lT6Q0FAHaKc?pid=ImgDet&w=541&h=763&rs=1" >
+            </div>
+               <p>The emblem of Rayalaseema University represents the history as well as the geographical significance of Kurnool District,
+                    which is popularly known as the gateway to Rayalaseema. The Sudarsana Chakra is the symbol of Dharma. 
+                    The temple at Srisailam on the right bank of the Krishna is a rare but significant confluence of Jyothirlinga 
+                    and Astadasa Sakti Peetha. Nandi, the vehicle of Lord Shiva, is found in more than one place in this region.
+                     The great Indian Bustard is the unique and proud possession of Kurnool District alone in the whole world.
+                      The Nallamala forest is a reservoir of various flora and fauna and also the abode of many pilgrimage centers.
+                       The Tungabhadra and the Krishna along with their tributaries border Kurnool District and wet the parched lands
+                        and quench the thirst of the people of Rayalaseema. The Konda Reddy Fort is a proud witness to 
+                        the Vijayanagara Dynasty, the exuberant life style of the Nawabs and the life of Konda Reddy.
+                         The Lotus is the abode of Saraswathi, Goddess of enlightenment, knowledge and wisdom. 
+                         The Motto“ Vidyaya Vindate Amrutam” is from the Kenopanishad, which conveys the message that one can 
+                          attain immortal wisdom through knowledge.
+                        </p> 
+                        <br/>
+            </div>
+            <br/>
+            </fieldset>
+                <div class="ADMINISTATION">
+                    <a name="ADMINISTATION"></a>
+                    <fieldset  class="fieldset2">
+                        <legend>ADMINISTATION</legend>
+                <h1 align="center">
+                    VICE CHANCELLOR</h1>
+               <div class="img">
+                <img src="https://www.rayalaseemauniversity.ac.in/upload/VC_Anandarao_sir.jpg" >
+            </div>
+            <P><b>Prof. A. Ananda Rao</b><br>
+                It is my great pleasure to convey my heartfelt greetings and best wishes to all the Members of Executive Council, Members of Managements of Affiliated Institutions,
+                 Rector, Registrar, Deans and Directors, Principals, faculty, staff, and Students of affiliated and constituent colleges of Rayalaseema University (RU)
+                  on the occasion of the New Year 2021. Hope this New Year brings cheer and happiness to all of us. Recently, I assumed charge as the Vice-Chancellor of RU,
+                   wherein considerable progress can be witnessed in academics, research, and infrastructure development. Definitely, it will be a memorable experience for
+                    me to be with you all and be a part of the development of this University, to enhance the academic ambience and the infrastructure. Emphasis will be given
+                    to strengthen the newly established Engineering College and other new courses in the constituent colleges, to accelerate the construction activity in the 
+                    University campus, to develop the research culture by framing the guidelines of R&D, and to initiate the faculty recruitment following the specific guidelines.
+                     We will also install a modular rooftop solar power plant to meet the power requirements of the university campus from the initial 100 kW and move forward in
+                      steps to increase up to 1 MW.<br>
+                      Prof. A. Ananda Rao<br>
+                     Vice-Chancellor<br>
+                    Rayalaseema University, Kurnool.
+            </P>
+            <h1 align="center">
+                RECTOR</h1>
+           <div class="img">
+            <img src="https://www.rayalaseemauniversity.ac.in/upload/rector.jpg" >
+        </div>
+        Prof. R. Sanjeeva Rao<br>
+Rector<br>
++91 9494481961<br>
+Rayalaseema University, Kurnool.<br>
+<h1 align="center">
+    REGISTRAR</h1>
+<div class="img">
+<img src="https://www.rayalaseemauniversity.ac.in/upload/principal.jfif" >
+</div>
+Prof. S Madhusudana Verma<br>
+Registrar<br>
+Rayalaseema University, Kurnool.<br>
+<br/>
+            </div>
+        </fieldset>
+        
+                <div class="PLACEMENT_CELL">
+                    <a name="PLACEMENT_CELL"></a>
+                    <fieldset class="fieldset3">
+                        <legend>PLACEMENT_CELL</legend>
+                        <h1 align="center">
+                            PLACEMENT OFFICER</h1>
+                       <div class="img">
+                        <img src="https://www.rayalaseemauniversity.ac.in/upload/grk.jpg" >
+                    </div>
+            <p><b>Dr. Rama Krishna Godha</b><br>
+                The main endeavor of placement cell, Rayalaseema University is to get students placed in reputed multinationals, 
+                government organisations, NGO's and the private sector. All students registered with placement cell will be provided
+                 placement assistance, counseling for employment and self /social entrepreneurship. The placement cell assures support
+                  to the visiting companies at every stage of the placement process by making university infrastructure available to them.
+                   The Placement cell acts as an interface between the students and industries and is dedicated to help the students to
+                    select from their career options. The placement cell is comprised of placement officer and placement coordinators from
+                     each discipline. We shall facilitate the selection process of all the companies as per their requirement. The PC will
+                      liaison with corporate organizations to provide suitable jobs and internship for the candidates completing their
+                       studies from the Rayalaseema University. One of the main responsibilities of the Placement Cell is to motivate,
+                        train and prepare the students of the University and its affiliated Colleges for campus interviews.
+                         It plays a very important and key role in counselling and guiding the students of the University and its
+                          affiliated Colleges for their successful career placement, which is a crucial interface for the students 
+                          between the stages of completion of academic programmes of studies and entry into suitable employment.<br>
+                          <b>Activities of the Placement Cell include:</b><br>
+                              1.Organising On-and-Off campus interviews<br>
+                              2.Organising training programmes like Personality Development Programmes, Mock Aptitude tests, Group Discussion training and mock interviews<br>
+                              3.Co-ordinating semester long or year-long Project Placement for the Students<br>
+                              4.Organising Student level workshops/meets with major Corporates<br>
+                              5.Facilitating Industry Institute Interactions by inviting experts for lectures, as members of Committees, etc.<br>
+            </p>
+            </div>
+                <div class="FACULTIES">
+                    <a name="FACULTIES"></a>
+                    <fieldset class="fieldset4">
+                        <legend>FACULTIES</legend>
+                        <h1 align="center">
+                            RAYALASEEMA UNIVERSITY COLLEGE OF ENGINEERING -PRINCIPAL</h1>
+                       <div class="img">
+                        <img src="http://ruce.ac.in/uploads/gallery/media/My%20Photo.jpg" >
+                    </div>
+                    <P><b>Dr. Y. HARIPRASADA REDDY</b><br>
+                        At Rayalaseema University College of Engineering, Kurnool the faculty members usher the students to achieve interpersonal skills,
+                         empathy and rapport skills, communication skills, analytical skills, leadership skills, competitive skills and ultimately academic excellence.
+
+The transformative learning process at our institute is designed to help our students grow both in and out side the classroom.
+ Each day is filled with opportunities to experience new educational and social situations to further development of the students. 
+ Our facilitators create a safe and challenging environment, where they can guide students in exploring the world around them to embrace challenges.
+  From our perspective, academic excellence goes beyond just making good grades. It is the amalgamation of development of intellectual capacities
+   and skills in service to humanity. Eventually, we prepare our students to meet global challenges and make ready global citizens.
+   <br/>
+                    </P>
+                    <h2>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h2>
+                    <h1 align="center">
+                        HEAD OF THE DEPARTMENT</h1>
+                  
+                    <h2 align="center"><b>prof. V. SATHISH KUMAR</b><br></h2>
+                    
+                <p align="center">
+                    HOD,Rayalaseema University College of Engineering.
+                </p>
+                <h1 align="center">
+                    FACULTIES</h1>
+                    <h2 align="center"><b>prof. B.SWARNA JYOTHI</b><br></h2>
+                    
+                    <p align="center">
+                        ASSISTANT PROFESSOR,Rayalaseema University College of Engineering.
+                    </p><br/>
+                    <h2 align="center"><b>prof. M.N.P. SWETHA PRIYA</b><br></h2>
+                    
+                    <p align="center">
+                        ASSISTANT PROFESSOR,Rayalaseema University College of Engineering.
+                    </p><br/>
+                    <h2 align="center"><b>prof. MUBASHEERA TAZEEN</b><br></h2>
+                    
+                    <p align="center">
+                        ASSISTANT PROFESSOR,Rayalaseema University College of Engineering.
+                    </p><br/>
+                <br/>
+            </div>
+            <br/>
+            <br/>
+            <footer>
+                <h2 class="footh2" align="center">
+                    <u>About Us</u> <br></h2>
+                <div align="center">
+                    <img src="https://www.rayalaseemauniversity.ac.in/images/logo.png" width="300" height="50">
+                </div>
+                <h2 class="footh2" align="center">
+                    copyright©2022 Rayalaseema University,kurnool<br>
+                </h2>
+               <h3 class="footh3" align="center">
+                Accessibility | Terms & Conditions | Privacy policy
+               </h3>
+               <h3 class="footh3" align="center">
+                Developed by <br>
+                VENKATA KRISHNA & KAMAKSHI<br>
+                Computer Science and Engineering | 2020-2024<br>
+                Rayalaseema University College of Engineering,kurnool.
+               </h3>
+               <h3 class="footh3" align="center">
+                Follow Us on-<br>
+               </h3>
+               <div class="icons" align="center" >
+                <a href="https://www.facebook.com/pages/category/Interest/Rayalaseema-University-Kurnool-355357677810567/"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://www.instagram.com/ruce_trolls_/"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://twitter.com/rayaiaseema"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="https://www.rayalaseemauniversity.ac.in/"><ion-icon name="logo-google"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+            </div>
+            </footer>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
